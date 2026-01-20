@@ -1,11 +1,9 @@
-# webserv_42_curriculum
-
 <div align="center">
 <h1>Webserv</h1>
 </div>
 
 #### Introduction
-A lightweight, HTTP/1.1 compliant web server built in C++17 for educational purposes as part of the [42 school curriculum](https://www.hive.fi/en/). The Docker expects the ports to be in range between 8000 and 8100 (inclusive)
+A lightweight, HTTP/1.1 compliant web server built in C++17 for educational purposes as part of the [42 school curriculum](https://www.hive.fi/en/).
 
 #### Table of Contents
 - [Features](#features)
@@ -68,8 +66,8 @@ docs/fusion_web/
 **Building**
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd webserv
+git clone git@github.com:Tonttu84/webserv_42_curriculum.git
+make
 
 # Build the server
 make

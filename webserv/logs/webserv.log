@@ -1,0 +1,83 @@
+[INFO] 2026-01-20 14:59:24: --- Logger Initialized ---
+[INFO] 2026-01-20 14:59:24: Webserv config file parsed successfully from: tests/test-configs/test.conf
+[INFO] 2026-01-20 14:59:29: New connection accepted on fd 7
+[INFO] 2026-01-20 14:59:29: New connection (fd 7) accepted on port 8002
+[INFO] 2026-01-20 14:59:29: New connection accepted on fd 8
+[INFO] 2026-01-20 14:59:29: New connection (fd 8) accepted on port 8002
+[INFO] 2026-01-20 14:59:29: Serving file: docs/fusion_web/index.html
+[INFO] 2026-01-20 14:59:29: Port: 8002, Host: localhost:8002
+	-> Received request: 		GET / HTTP/1.1
+	-> Sending response: 		HTTP/1.1 200 OK
+[INFO] 2026-01-20 14:59:29: Successfully sent response to client fd 8, bytes sent: 1311
+[INFO] 2026-01-20 14:59:29: Serving file: docs/fusion_web/style.css
+[INFO] 2026-01-20 14:59:29: Port: 8002, Host: localhost:8002
+	-> Received request: 		GET /style.css HTTP/1.1
+	-> Sending response: 		HTTP/1.1 200 OK
+[INFO] 2026-01-20 14:59:29: Successfully sent response to client fd 8, bytes sent: 1760
+[INFO] 2026-01-20 14:59:29: Serving file: docs/fusion_web/favicon.ico
+[INFO] 2026-01-20 14:59:29: Port: 8002, Host: localhost:8002
+	-> Received request: 		GET /favicon.ico HTTP/1.1
+	-> Sending response: 		HTTP/1.1 200 OK
+[INFO] 2026-01-20 14:59:29: Successfully sent response to client fd 8, bytes sent: 15530
+[INFO] 2026-01-20 14:59:31: Processing CGI request :/cgi-bin/
+[INFO] 2026-01-20 14:59:31: Port: 8002, Host: localhost:8002
+	-> Received request: 		GET /cgi-bin/ HTTP/1.1
+	-> Sending response: 		HTTP/1.1 200 OK
+[INFO] 2026-01-20 14:59:31: Successfully sent response to client fd 8, bytes sent: 92
+[INFO] 2026-01-20 14:59:37: Processing CGI request :/cgi-bin/
+[INFO] 2026-01-20 14:59:37: Port: 8002, Host: localhost:8002
+	-> Received request: 		GET /cgi-bin/ HTTP/1.1
+	-> Sending response: 		HTTP/1.1 200 OK
+[INFO] 2026-01-20 14:59:37: Successfully sent response to client fd 8, bytes sent: 92
+[INFO] 2026-01-20 14:59:41: Serving file: docs/fusion_web/tours/tours1.html
+[INFO] 2026-01-20 14:59:41: Port: 8002, Host: localhost:8002
+	-> Received request: 		GET /tours HTTP/1.1
+	-> Sending response: 		HTTP/1.1 200 OK
+[INFO] 2026-01-20 14:59:41: Successfully sent response to client fd 8, bytes sent: 1284
+[INFO] 2026-01-20 14:59:41: Serving file: docs/fusion_web/style.css
+[INFO] 2026-01-20 14:59:41: Port: 8002, Host: localhost:8002
+	-> Received request: 		GET /style.css HTTP/1.1
+	-> Sending response: 		HTTP/1.1 200 OK
+[INFO] 2026-01-20 14:59:41: Successfully sent response to client fd 8, bytes sent: 1760
+[INFO] 2026-01-20 14:59:46: Processing CGI request :/cgi-bin/
+[INFO] 2026-01-20 14:59:46: Port: 8002, Host: localhost:8002
+	-> Received request: 		GET /cgi-bin/ HTTP/1.1
+	-> Sending response: 		HTTP/1.1 200 OK
+[INFO] 2026-01-20 14:59:46: Successfully sent response to client fd 8, bytes sent: 92
+[INFO] 2026-01-20 14:59:48: Processing CGI request :/cgi-bin/
+[INFO] 2026-01-20 14:59:48: Port: 8002, Host: localhost:8002
+	-> Received request: 		GET /cgi-bin/ HTTP/1.1
+	-> Sending response: 		HTTP/1.1 200 OK
+[INFO] 2026-01-20 14:59:48: Successfully sent response to client fd 8, bytes sent: 92
+[INFO] 2026-01-20 15:00:34: Connection timed out: fd=7
+[INFO] 2026-01-20 15:00:37: --- Logger Shutdown ---
+[INFO] 2026-01-20 15:07:43: --- Logger Initialized ---
+[INFO] 2026-01-20 15:07:43: Webserv config file parsed successfully from: tests/test-configs/test.conf
+[INFO] 2026-01-20 15:07:48: New connection accepted on fd 7
+[INFO] 2026-01-20 15:07:48: New connection (fd 7) accepted on port 8002
+[INFO] 2026-01-20 15:07:48: Processing CGI request :/cgi-bin/
+[INFO] 2026-01-20 15:07:48: Port: 8002, Host: localhost:8002
+	-> Received request: 		GET /cgi-bin/ HTTP/1.1
+	-> Sending response: 		HTTP/1.1 200 OK
+[INFO] 2026-01-20 15:07:48: Successfully sent response to client fd 7, bytes sent: 567
+[INFO] 2026-01-20 15:07:48: New connection accepted on fd 8
+[INFO] 2026-01-20 15:07:48: New connection (fd 8) accepted on port 8002
+[INFO] 2026-01-20 15:07:48: Serving file: docs/fusion_web/favicon.ico
+[INFO] 2026-01-20 15:07:48: Port: 8002, Host: localhost:8002
+	-> Received request: 		GET /favicon.ico HTTP/1.1
+	-> Sending response: 		HTTP/1.1 200 OK
+[INFO] 2026-01-20 15:07:48: Successfully sent response to client fd 7, bytes sent: 15530
+[INFO] 2026-01-20 15:07:50: Serving file: docs/fusion_web/index.html
+[INFO] 2026-01-20 15:07:50: Port: 8002, Host: localhost:8002
+	-> Received request: 		GET / HTTP/1.1
+	-> Sending response: 		HTTP/1.1 200 OK
+[INFO] 2026-01-20 15:07:50: Successfully sent response to client fd 7, bytes sent: 1311
+[INFO] 2026-01-20 15:07:50: Serving file: docs/fusion_web/style.css
+[INFO] 2026-01-20 15:07:50: Port: 8002, Host: localhost:8002
+	-> Received request: 		GET /style.css HTTP/1.1
+	-> Sending response: 		HTTP/1.1 200 OK
+[INFO] 2026-01-20 15:07:50: Successfully sent response to client fd 7, bytes sent: 1760
+[INFO] 2026-01-20 15:07:58: --- Logger Shutdown ---
+[INFO] 2026-01-20 15:09:46: --- Logger Initialized ---
+[INFO] 2026-01-20 15:09:46: Webserv config file parsed successfully from: tests/test-configs/test.conf
+[INFO] 2026-01-20 15:09:58: --- Logger Shutdown ---

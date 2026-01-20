@@ -1,0 +1,18 @@
+services:
+  webserv:
+    build:
+      context: ./webserv       # point to the Dockerfile inside webserv/
+    container_name: webserv_container
+    ports:
+      - "8000-8100:8000-8100"  # map full port range to host
+    volumes:
+      - ./webserv/docs/fusion_web:/usr/src/webserv/docs/fusion_web:ro
+      - ./webserv/logs:/usr/src/webserv/logs
+    networks:
+      - webnet
+    working_dir: /usr/src/webserv
+    command: ./webserv
+
+networks:
+  webnet:
+    driver: bridge
